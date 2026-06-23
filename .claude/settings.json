@@ -2,9 +2,11 @@
   "permissions": {
     "allow": [
       "Bash(npm run *)",
-      "Bash(pytest:*)",
-      "Bash(git diff:*)",
-      "Bash(git log:*)"
+      "Bash(pytest *)",
+      "Bash(git diff *)",
+      "Bash(git log *)",
+      "Bash(git status *)",
+      "Bash(git show *)"
     ],
     "deny": [
       "Bash(rm -rf *)",
